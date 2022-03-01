@@ -10,6 +10,6 @@ let soyDeBarcelona = true;
 let tengoSegundaResidencia = true;
 
 /** NO TOCAR A PARTIR DE AQUÍ */
-if (soyDeBarcelona && !tengoSegundaResidencia) {
+if (soyDeBarcelona && tengoSegundaResidencia) {
     console.log("Yo soy de Barcelona, pero no tengo una segunda residencia en Platja d'aro...");
 }
